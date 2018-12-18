@@ -4,4 +4,4 @@ The data used is available publicly at [Kaggle](https://www.kaggle.com/fernandol
 
 The data has been saved as an Excel Workbook to make it compatible with Tableau.
 
-<iframe src="https://public.tableau.com/views/WD1GDPMap/Dashboard1?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="85%" height="80%"></iframe> [//]: # (GDP Map)
+<iframe src="https://public.tableau.com/views/WD1GDPMap/Dashboard1?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="800"></iframe> [//]: # (GDP Map)
