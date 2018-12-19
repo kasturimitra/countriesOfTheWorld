@@ -14,7 +14,7 @@ To analyse the data, the countries have been divided into several regions. The f
 
 One of the major factors on which a country is assessed is its GDP. The following map shows the GDP for each country, colour coded for easy comparisons.
 
-<iframe src="hhttps://public.tableau.com/views/WorldData_17/GDPMap?:embed=y&:display_count=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Map)
+<iframe src="https://public.tableau.com/views/WorldData_17/GDPMap?:embed=y&:display_count=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Map)
 
 The map shows that not many countries have high GDP. But how well is this distributed? 
 
