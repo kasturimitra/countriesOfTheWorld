@@ -81,3 +81,20 @@ Surprisingly enough, that is not the case.
 
 Land doesn't seem to tell us a lot about a country. Perhaps, we would find something interesting looking at the population.
 
+## Population
+
+Which countries are the most populated? This would give us a general idea of where most of our population resides.
+
+<iframe src="https://public.tableau.com/views/WD8PopulationMap/PopulationMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Map)
+
+China and India stand out from the rest of the map with their individual populations crossing over a billion people. With increasing population, resource distribution becomes a challenge.
+
+Another factor that could affect quality of life is population density.
+
+<iframe src="https://public.tableau.com/views/WD11PopulationDensityMap/PopulationDensityMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Map)
+
+Something seems very wrong here. Every country seems to have nearly the same colour. The reason for this is that we have considered high density regions to be big enough. Most densely populated countries happen to be very small, and often cannot be viewed from a zoomed out view of the world map.
+
+We'll make a bubble chart to look at the countries on the top of this list.
+
+<iframe src="https://public.tableau.com/views/WD12PopulationDensityBubble/PopulationDensityBubble?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Bubble)
