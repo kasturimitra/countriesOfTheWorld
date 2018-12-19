@@ -69,5 +69,15 @@ How about the population and area?
 Even though there does seem to be a correlation between the population, this doesn't tell us much.
 Note that both the axes have been made logarithmic to better graph our plot. The relation is a power relation.
 
-Perhaps, we would find something interesting looking at the population.
+Instead of considering the entire area of a country, we could look at land utilization. We could see how much percentage of land of a certain country is arable, for starters.
+
+<iframe src="https://public.tableau.com/views/WD9ArableLandMap/ArableLandMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land Map)
+
+One would assume the more perecntage of arable land, the more percentage of crops produced.
+
+<iframe src="https://public.tableau.com/views/WD10ArableLandtoCrops/ArableLandtoCrops?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land to Crops)
+
+Surprisingly enough, that is not the case.
+
+Land doesn't seem to tell us a lot about a country. Perhaps, we would find something interesting looking at the population.
 
