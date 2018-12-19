@@ -8,17 +8,17 @@ The data has been saved as an Excel Workbook to make it compatible with Tableau.
 
 To analyse the data, the countries have been divided into several regions. The following map shows the various regions. You can hover or click to see the various names.
 
-<iframe src="https://public.tableau.com/views/WD2Regions/RegionsinColour?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Regions Map)
+<iframe src="https://public.tableau.com/views/WorldData_17/RegionsinColour?:embed=y&:display_count=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Regions Map)
 
 ## GDP
 
 One of the major factors on which a country is assessed is its GDP. The following map shows the GDP for each country, colour coded for easy comparisons.
 
-<iframe src="https://public.tableau.com/views/WD1GDPMap/Dashboard1?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Map)
+<iframe src="hhttps://public.tableau.com/views/WorldData_17/GDPMap?:embed=y&:display_count=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Map)
 
 The map shows that not many countries have high GDP. But how well is this distributed? 
 
-<iframe src="https://public.tableau.com/views/WD3GDPHistogram/GDPHistogram?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Histogram)
+<iframe src="https://public.tableau.com/views/WorldData_17/GDPHistogram?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Histogram)
 
 This is clearly not a normal distribution. Most countries have low GDP with only a few in the higher ranges. A significant portion of the world wealth is concentrated among a few countries.
 
@@ -27,7 +27,7 @@ If we tried to create a graph with GDP of all countries to see a trend, it would
 
 A better solution: group countries by their region and compare the GDP of each region.
 
-<iframe src="https://public.tableau.com/views/WD4GDPbyRegion/GDPbyRegion?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP by Region)
+<iframe src="https://public.tableau.com/views/WorldData_17/GDPbyRegion?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP by Region)
 
 Western Europe has the highest GDP, which makes perfect sense. The region is well developed and well regulated by the EU with high living standards.
 It also makes sense that Northern Africa has the lowest GDP.
@@ -39,7 +39,7 @@ The regions have varying areas and varying number of countries. Comparing them d
 
 The previous graph compared the regions by the sum total of their GDP. What we'll do instead, is compare the average GDP of each region. This should give us a better understanding of the economic conditions of each region.
 
-<iframe src="https://public.tableau.com/views/WD5GDPbyRegionAverage/GDPbyRegionavg?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP by Region (Average))
+<iframe src="https://public.tableau.com/views/WorldData_17/GDPbyRegionavg?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP by Region (Average))
 
 This graph seems to make a lot more sense.
 
@@ -56,7 +56,7 @@ To better our understanding, we will take up area next.
 
 Let's see if GDP is affected by the area of a country.
 
-<iframe src="https://public.tableau.com/views/WD6GDPAreaCorrelation/GDPAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Area Correlation)
+<iframe src="https://public.tableau.com/views/WorldData_17/GDPAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Area Correlation)
 
 The x-axis has been made logarithmic to better scatter the points on our plot.
 
@@ -64,18 +64,18 @@ There seems to be no direct correlation between the two.
 
 How about the population and area? 
 
-<iframe src="https://public.tableau.com/views/WD7GDPPopulationCorrelation/PopulationAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Population Correlation)
+<iframe src="https://public.tableau.com/views/WorldData_17/PopulationAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Population Correlation)
 
 Even though there does seem to be a correlation between the population, this doesn't tell us much.
 Note that both the axes have been made logarithmic to better graph our plot. The relation is a power relation.
 
 Instead of considering the entire area of a country, we could look at land utilization. We could see how much percentage of land of a certain country is arable, for starters.
 
-<iframe src="https://public.tableau.com/views/WD9ArableLandMap/ArableLandMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land Map)
+<iframe src="https://public.tableau.com/views/WorldData_17/ArableLandMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land Map)
 
 One would assume the more perecntage of arable land, the more percentage of crops produced.
 
-<iframe src="https://public.tableau.com/views/WD10ArableLandtoCrops/ArableLandtoCrops?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land to Crops)
+<iframe src="https://public.tableau.com/views/WorldData_17/ArableLandtoCrops?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Arable Land to Crops)
 
 Surprisingly enough, that is not the case.
 
@@ -85,19 +85,19 @@ Land doesn't seem to tell us a lot about a country. Perhaps, we would find somet
 
 Which countries are the most populated? This would give us a general idea of where most of our population resides.
 
-<iframe src="https://public.tableau.com/views/WD8PopulationMap/PopulationMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Map)
+<iframe src="https://public.tableau.com/views/WorldData_17/PopulationMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Map)
 
 China and India stand out from the rest of the map with their individual populations crossing over a billion people. With increasing population, resource distribution becomes a challenge.
 
 Another factor that could affect quality of life is population density.
 
-<iframe src="https://public.tableau.com/views/WD11PopulationDensityMap/PopulationDensityMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Map)
+<iframe src="https://public.tableau.com/views/WorldData_17/PopulationDensityMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Map)
 
 Something seems very wrong here. Every country seems to have nearly the same density. The reason for this is that we have considered high density regions to be big enough to stand out. Most densely populated countries happen to be very small, and often cannot be viewed from a zoomed out view of the world map.
 
 We'll make a bubble chart to look at the countries on the top of this list.
 
-<iframe src="https://public.tableau.com/views/WD12PopulationDensityBubble/PopulationDensityBubble?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Bubble)
+<iframe src="https://public.tableau.com/views/WorldData_17/PopulationDensityBubble?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Bubble)
 
 Monaco and Macau are the densest of all, with an alarming 16,272 and 16,183 people per square mile respectively. These are very small countries, and explains why we didn't get to see them initially.
 
@@ -105,3 +105,35 @@ Singapore and Hong Kong are close contenders but with only about two-fifths the 
 
 Beyond Malta, the colours more or less converge into the same as not much of a varying range of numbers is left. 
 Majority of the countries happen to fall in this category and are practically indistinguishable till the denser ones like Monaco are removed.
+
+Density directly affects resource availability and technological advancement, and thus quality of life.
+
+## Literacy Rate
+
+An easy way to check the advancement of a country is to check its literacy rate. Higher literacy rates show effective education infrastructure and access to potential higher education.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/LiteracyRateMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Rate Map)
+
+Most of the world seems well literate with a few exceptions in Africa and Asia. 
+To get a closer look, let's compare literacy rates by region.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/AverageLiteracybyRegion?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Rate by Region Bar Chart)
+
+As noted from the world map, Sub-Saharan Africa and Northern Africa are at the very end.
+
+It is difficult to make a comparison among the top five regions as they all have a literacy rate of over 97%. North America and Western Europe lie within.
+
+This seems familiar; the GDP by region plot showed similar results. Is it possible that GDP is affected by literacy rate?
+
+<iframe src="https://public.tableau.com/views/WorldData_17/LiteracyGDPCorrelation?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy GDP Correlation)
+
+Literacy rate seems to affect GDP almost exponentially. This makes sense considering the greater the number of educated individuals, the better will they be able to fill and do high skilled work.
+In most countries, high skilled work affects GDP significantly more than low skilled.
+
+Apart from better jobs, literacy also provides better decision making skills.
+In particular, we talk about dependence of birth rate on literacy, since it is readily available in our data.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/LiteracyBirthrateCorrelation?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Birthrate Correlation)
+
+As literacy rate goes up, birthrate comes down. This isn't a bad thing; it means literate individuals are capable of family planning.
+With limited resources and the world population reaching almost 8 billion, population growth is a cause for concern and needs to be tackled.
