@@ -93,8 +93,15 @@ Another factor that could affect quality of life is population density.
 
 <iframe src="https://public.tableau.com/views/WD11PopulationDensityMap/PopulationDensityMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Map)
 
-Something seems very wrong here. Every country seems to have nearly the same colour. The reason for this is that we have considered high density regions to be big enough. Most densely populated countries happen to be very small, and often cannot be viewed from a zoomed out view of the world map.
+Something seems very wrong here. Every country seems to have nearly the same density. The reason for this is that we have considered high density regions to be big enough to stand out. Most densely populated countries happen to be very small, and often cannot be viewed from a zoomed out view of the world map.
 
 We'll make a bubble chart to look at the countries on the top of this list.
 
 <iframe src="https://public.tableau.com/views/WD12PopulationDensityBubble/PopulationDensityBubble?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Population Density Bubble)
+
+Monaco and Macau are the densest of all, with an alarming 16,272 and 16,183 people per square mile respectively. These are very small countries, and explains why we didn't get to see them initially.
+
+Singapore and Hong Kong are close contenders but with only about two-fifths the population per square mile of Monaco (or Macau).
+
+Beyond Malta, the colours more or less converge into the same as not much of a varying range of numbers is left. 
+Majority of the countries happen to fall in this category and are practically indistinguishable till the denser ones like Monaco are removed.
