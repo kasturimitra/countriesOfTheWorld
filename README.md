@@ -29,7 +29,7 @@ A better solution: group countries by their region and compare the GDP of each r
 
 <iframe src="https://public.tableau.com/views/WD4GDPbyRegion/GDPbyRegion?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP by Region)
 
-Western Europe has the highest GDP, which makes perfect sense. The region is well developed and well regulated by EU with high living standards.
+Western Europe has the highest GDP, which makes perfect sense. The region is well developed and well regulated by the EU with high living standards.
 It also makes sense that Northern Africa has the lowest GDP.
 
 But with Sub-Saharan Africa having nearly equal GDP as North America, our data seems flawed. Very few industries lie in Sub-Saharan Africa; the United States of America ishould itself surpass Sub-Saharan Africa's economy, and do so by a huge margin.
@@ -51,3 +51,22 @@ Sub-Saharan Africa, on the other hand, has managed to move to the very end of th
 GDP alone doesn't provide a lot of insight on a country, or even a region. But it's a good place to start. GDP would probably also be used in the upcoming sections because most factors are inter dependent.
 
 To better our understanding, we will take up area next.
+
+## Area
+
+Let's see if GDP is affected by the area of a country.
+
+<iframe src="https://public.tableau.com/views/WD6GDPAreaCorrelation/GDPAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Area Correlation)
+
+The x-axis has been made logarithmic to better scatter the points on our plot.
+
+There seems to be no direct correlation between the two.
+
+How about the population and area? 
+
+<iframe src="https://public.tableau.com/views/WD7GDPPopulationCorrelation/PopulationAreaCorr?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Population Correlation)
+
+Even though there does seem to be a correlation between the population, this doesn't tell us much.
+Note that both the axes have been made logarithmic to better graph our plot. The relation is a power relation.
+
+Perhaps, we would find something interesting looking at the population.
