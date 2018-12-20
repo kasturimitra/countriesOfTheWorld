@@ -137,3 +137,12 @@ In particular, we talk about dependence of birth rate on literacy, since it is r
 
 As literacy rate goes up, birthrate comes down. This isn't a bad thing; it means literate individuals are capable of family planning.
 With limited resources and the world population reaching almost 8 billion, population growth is a cause for concern and needs to be tackled.
+
+Another thing we could check is the dependence of technology on literacy rate.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/LiteracyPhoneCorrelation?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Mobile Correlation)
+
+In our graph, we see an almost exponential dependence of phones per 1000 people on literacy rate.
+
+Technological advancement of a country isn't purely dependent on the percentage of phone users. But it does give us a basic idea of how technologically literate the population of a country is.
+Technological literacy determines the number of high skilled workers, which would affect the economy.
