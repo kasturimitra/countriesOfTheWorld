@@ -138,6 +138,14 @@ In particular, we talk about dependence of birth rate on literacy, since it is r
 As literacy rate goes up, birthrate comes down. This isn't a bad thing; it means literate individuals are capable of family planning.
 With limited resources and the world population reaching almost 8 billion, population growth is a cause for concern and needs to be tackled.
 
+A better measure would be infant mortality rate, which would tell us the quality and accessibility of a country's medical infrastructure.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/LiteracyInfantMortalityCorrelation?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Mortality Correlation)
+
+Note that infant mortality cannot be equated with family planning as it is a calamity, not a choice. Death of children will stunt the growth of a nation as it means poor health standards and/or lack of accessibility or affordability to healthcare.
+
+Clearly, as literacy rates go up, mortality rates come down. Literate individuals are much more likely to be able to contribute to the medical sector and access it in times of need.
+
 Another thing we could check is the dependence of technology on literacy rate.
 
 <iframe src="https://public.tableau.com/views/WorldData_17/LiteracyPhoneCorrelation?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Literacy Mobile Correlation)
@@ -146,3 +154,4 @@ In our graph, we see an almost exponential dependence of phones per 1000 people 
 
 Technological advancement of a country isn't purely dependent on the percentage of phone users. But it does give us a basic idea of how technologically literate the population of a country is.
 Technological literacy determines the number of high skilled workers, which would affect the economy.
+
