@@ -155,3 +155,18 @@ In our graph, we see an almost exponential dependence of phones per 1000 people 
 Technological advancement of a country isn't purely dependent on the percentage of phone users. But it does give us a basic idea of how technologically literate the population of a country is.
 Technological literacy determines the number of high skilled workers, which would affect the economy.
 
+## Migration
+
+Net migration is the difference between immigrants and emmigrants. A country with a high migration rate usually means that it is a wealthy country providing plenty of opportunity. A low migration rate might imply lack of political stability or infrastructure.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/MigrationMap?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Migration Map)
+
+Afghanistan is a clear outlier with the highest migration rate. This seems unlikely with the present conditions. Perhaps the data is outdated or has genuine errors.
+
+We'll compare regions next.
+
+<iframe src="https://public.tableau.com/views/WorldData_17/MigrationbyRegion?:embed=y&:display_count=yes&publish=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (Migration by Region)
+
+This makes a lot more sense, with Western Europe back at the top. Asia and Near East provide plenty of job, so obviously they'd be close.
+
+Northern America has a negative migration. This is surprising considering it has USA and Canada. However, it also has Greenland, which is already sparsely populated, and people tend to move away to other countries for better opportunities.
