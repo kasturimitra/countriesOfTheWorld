@@ -1,12 +1,12 @@
 # Countries of the World
 
-##Introduction
+## Introduction
 
 The acquired data is a table with facts about the countries in the world. These include GDP per capita, population, literacy rate, to name a few.
 
 We'll be making visualizations of these, often categorizing them by the pre-defined regions.
 
-##Usage
+## Usage
 
 The data used is available publicly at [Kaggle](https://www.kaggle.com/fernandol/countries-of-the-world/version/1).
 
