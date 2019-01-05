@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The acquired data is a table with facts about the countries in the world. These include GDP per capita, population, literacy rate, to name a few.
+The acquired data is a table with facts about the countries in the world. This includes GDP per capita, population, literacy rate, to name a few.
 
 We'll be making visualizations of these, often categorizing them by the pre-defined regions.
 
@@ -10,7 +10,7 @@ We'll be making visualizations of these, often categorizing them by the pre-defi
 
 The data used is available publicly at [Kaggle](https://www.kaggle.com/fernandol/countries-of-the-world/version/1).
 
-The data has been saved as an Excel Workbook to make it compatible with Tableau. Since the original dataset used commas as decimal separators, they've been replaced with decimal points. This ensures teh values aren't interpreted as strings.
+The data has been saved as an Excel Workbook to make it compatible with Tableau. Since the original dataset used commas as decimal separators, they've been replaced with decimal points. This ensures the values aren't interpreted as strings.
 
 ## Regions
 
