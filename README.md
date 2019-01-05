@@ -1,8 +1,16 @@
 # Countries of the World
 
+##Introduction
+
+The acquired data is a table with facts about the countries in the world. These include GDP per capita, population, literacy rate, to name a few.
+
+We'll be making visualizations of these, often categorizing them by the pre-defined regions.
+
+##Usage
+
 The data used is available publicly at [Kaggle](https://www.kaggle.com/fernandol/countries-of-the-world/version/1).
 
-The data has been saved as an Excel Workbook to make it compatible with Tableau.
+The data has been saved as an Excel Workbook to make it compatible with Tableau. Since the original dataset used commas as decimal separators, they've been replaced with decimal points. This ensures teh values aren't interpreted as strings.
 
 ## Regions
 
@@ -12,7 +20,7 @@ To analyse the data, the countries have been divided into several regions. The f
 
 ## GDP
 
-One of the major factors on which a country is assessed is its GDP. The following map shows the GDP for each country, colour coded for easy comparisons.
+One of the major factors on which a country is assessed is its GDP per capita. The following map shows the GDP for each country, colour coded for easy comparisons. The terms GDP and GDP per capita will be used interchangeably in this text.
 
 <iframe src="https://public.tableau.com/views/WorldData_17/GDPMap?:embed=y&:display_count=yes:showVizHome=no&:embed=true" width="800" height="500"></iframe> [//]: # (GDP Map)
 
